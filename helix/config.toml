@@ -1,0 +1,13 @@
+theme = "monokai_pro_spectrum"
+
+[editor]
+line-number = "relative"
+mouse = false
+# bufferline = "always"
+auto-pairs = false
+bufferline = "multiple"
+
+[keys.normal]
+C-f = ["file_picker_in_current_directory"]
+L = ["goto_next_buffer"]
+H = ["goto_previous_buffer"]
