@@ -1,3 +1,4 @@
 [language-server.rust-analyzer]
-command = "REPLACE_ME/.cargo/bin/rust-analyzer"
+command = "flatpak-spawn"
+args = ["--host", "rust-analyzer"]
 config.check.command = "clippy"
