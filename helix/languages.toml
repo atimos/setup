@@ -2,3 +2,12 @@
 command = "flatpak-spawn"
 args = ["--host", "rust-analyzer"]
 config.check.command = "clippy"
+config.cargo.targetDir = true
+
+[language-server.phpactor]
+command = "phpactor"
+args = ["language-server"]
+
+[[language]]
+name = "php"
+language-servers = ["phpactor"]
